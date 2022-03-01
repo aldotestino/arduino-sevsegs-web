@@ -19,9 +19,7 @@ function App() {
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
-    if(currentNumber !== null) {
-      fetch(`${URL}/set?n=${currentNumber}`);
-    }
+    fetch(`${URL}/set?n=${currentNumber}`);
   }, [currentNumber]); 
 
   function numberUp() {
