@@ -53,7 +53,7 @@ function App() {
           </HStack>
           <Button w="100%" disabled={busy} onClick={() => setCurrentNumber(0)}>Reset</Button>
           <Button w="100%" disabled={busy} onClick={() => count('down')}>Countdown</Button>
-          <Button w="100%" disabled={busy} onClick={() => count('up')}>Contup</Button>
+          <Button w="100%" disabled={busy} onClick={() => count('up')}>Countup</Button>
         </VStack>
       </Center>
     </ChakraProvider>
